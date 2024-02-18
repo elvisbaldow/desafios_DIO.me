@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.content{
+    width: 100%;
+    height: 90%;
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 200px auto; /*definindo quantidade de linhas e colunas do mesmo tamanho no caso 1 fraçao*/
+    grid-template-rows: auto;
+
+}
+.menu{
+    background-color:rgb(20, 36, 62);
+    list-style: none;
+}
+.menu svg{
+    width: 20px;
+}
+.menu .logo img{
+    width: 200px;
+
+}
+.menu li{
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.2em;
+}
+.menu ul a:hover{
+    background-color: rgba(12, 140, 237, 0.654);
+    display: block;
+}
+
+.conteudo{
+    background-image: url(../img/woman-smiles-broadly-points-her-perfect-even-teeth-indicates-corners-lips-looks-away-wears-casual-blue-jumper-isolated-white-with-blank-copy-space.jpg);
+    background-position: top right;
+    background-size: 100%;
+    display: grid;
+    align-items: start;
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto 30px;
+    align-items: stretch;
+}
+.head{
+    background-color: rgba(12, 140, 237, 0.654);
+    display: flex;
+}
+.head p{
+    margin-left: 25px;
+    text-align: left;
+}
+.head svg{
+    width: 20px;
+    
+}
+.head .facebook{
+    margin-left: 50%;
+    padding: 10px;
+}
+
+.text .slogan{
+    width: 400px;
+    margin-left: 25px;
+    margin-top: 25px;
+
+}
+.text h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.5em;
+    margin-bottom: 0px;
+    line-height: 1.0em;
+    
+}
+.text h5{
+    font-family: "Roboto", sans-serif;
+    font-weight:300;
+    font-style: normal;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.foot{
+    background-color:rgb(20, 36, 62);
+    color: azure;
+    text-align: center;
+}
+.foot p{
+    margin-top: 5;
+}
